@@ -1,0 +1,52 @@
+body h3{
+    margin-top: 20px;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+}
+.pilihan{
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+    
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: whitesmoke;
+}
+table tr {
+    border: 2px solid rgba(146, 146, 146, 0.322);
+    border-left: none;
+    border-right: none;
+}
+.containerisi{
+    display: block;
+    margin: 0 auto 10vw auto !important;
+    width: 100%;
+}
+table{
+    margin: 0 auto!important;
+    width: 100%;
+    
+}
+tr,td,th{
+    padding: 5px;
+    text-align: center;
+}
+.form-control{
+    margin: 0 auto;
+    border-color: rgba(85, 137, 248, 0.582) !important;
+}
+form h1{
+    margin-bottom: 50px;
+}
+.form-check{
+    text-align: left;
+}
+
+h2{
+    margin: 30px 0;
+}

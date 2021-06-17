@@ -1,0 +1,280 @@
+/* bagian header dan backgorund */
+.background {
+    background-image: url('..//img/pexels-vitaly-vlasov-1655817.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 640px;
+    margin-top: -100px;
+    box-shadow: rgb(37, 37, 37) 5px 0px 10px 1px;
+}
+.garis::after{
+    background-color: rgb(247, 245, 242);
+}
+.garisfirstpage::after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 4px;
+    background: rgb(141, 141, 141);
+    transition: width .3s;
+    margin-left: 5px;
+    margin: 0 auto;
+    }
+    
+    
+    .garisfirstpage:hover::after{
+      width: 360px;
+      border-radius: 5px;
+      transition: width .3s;
+    }
+    .firstpage{
+        height: auto;
+        padding: 50px 0px;
+        margin-top: 50px;
+        /* background-color: rgba(201, 201, 201, 0.418); */
+        /* box-shadow: rgb(37, 37, 37) 5px 0px 10px 1px; */
+    }
+    .firstpage h1{
+        font-family: 'Lobster', cursive;
+        text-align: center;
+    }
+.logo p{
+    margin-top: 0;
+    padding: 20px;
+    font-size: 2vw;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+nav{
+    margin-bottom: 0px;
+}
+.nav-link{
+    top: 2px;
+    padding-top: 20px;
+    height: 600px;
+    padding-bottom: 20px;
+    background-color: rgb(59, 59, 59);
+}
+.nav-link a{
+    color: rgb(250, 250, 250);
+    font-style: italic;
+}
+.nav-link a:hover{
+    color: rgb(219, 219, 219);
+}
+.burger {
+    z-index: 1;
+}
+.burger div{
+    background-color: white;
+}
+.background p{
+    text-align: left;
+    line-height: 550px;
+    font-size: 2rem;
+    margin-left: 60px;
+    font-family: 'Merriweather', serif;
+    color: rgb(233, 233, 233);
+    font-style: italic;
+    text-shadow: 2px 2px 1px grey;
+}
+h2#swal2-title.swal2-title{
+    font-size: 2vw !important;
+}
+button.swal2-confirm.swal2-styled{
+    width: 20vw;
+    font-size: 1.5vw !important;
+}
+/* bagian header dan backgorund */
+
+/* carousel */
+.carousel{
+    width: 60%;
+    margin: 50px auto;
+}
+.carousel-inner img{
+    border-radius:10px ;
+}
+/* carousel */
+
+
+/* bagian maps */
+
+iframe{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgb(37, 37, 37) 1px 3px 10px 1px;
+}
+.iframe{
+    margin: 50px 100px;
+}
+
+.iframe h1{
+    font-family: 'Lobster', cursive;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.iframe .garisfirstpage::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: rgb(141, 141, 141);
+    transition: width .3s;
+    margin-left: 5px;
+    margin: 0 auto;
+    }
+    
+    .iframe .garisfirstpage:hover::after{
+      width: 250px;
+      border-radius: 5px;
+      transition: width .3s;
+    }
+/* bagian maps */
+
+/* bagian pengenalan */
+.pengenalan{
+    width: 100%;
+    margin-top: 50px;
+}
+.pengenalan img{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+.pengenalan .text{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.pengenalan .text p{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.pengenalan h1{
+    font-family: 'Lobster', cursive;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.pengenalan .garisfirstpage::after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: rgb(141, 141, 141);
+    transition: width .3s;
+    margin-left: 5px;
+    margin: 0 auto;
+    }
+    
+    .pengenalan .garisfirstpage:hover::after{
+      width:140px;
+      border-radius: 5px;
+      transition: width .3s;
+    }
+/* bagian pengenalan */
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    h2#swal2-title.swal2-title{
+        font-size: 3vw !important;
+    }
+    button.swal2-confirm.swal2-styled{
+        width: 20vw;
+        font-size: 2vw !important;
+    }
+    .background{
+    width: 100%;
+    height: 400px;
+}
+.background p{
+    line-height: 400px;
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+
+.pengenalan img{
+    width: 80%;
+}
+.pengenalan .text{
+    width: 90%;
+}
+
+
+.carousel{
+    width: 80%;
+}
+
+
+.iframe{
+    margin: 50px 50px;
+}
+}
+@media screen and (max-width: 600px) {
+    h2#swal2-title.swal2-title{
+        font-size: 4vw !important;
+    }
+    button.swal2-confirm.swal2-styled{
+        width: 20vw;
+    }
+    .background{
+        width: 100%;
+        height: 350px;
+    }
+    .background p{
+        margin-left: 0;
+        text-align: center;
+        font-size: 1rem;
+    }
+    nav .logo img{
+        margin-left:10px ;
+    }
+    .burger{
+        margin-right: 20px;
+    }
+    
+    .pengenalan img{
+        width: 100%;
+        border-radius: 5px;
+    }
+    .pengenalan .text{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .pengenalan .text p{
+        font-size: 12px;
+    }
+
+    .firstpage{
+        padding: 0px;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .carousel img{
+        border-radius: 5px;
+    }
+
+
+    .iframe{
+        margin: 0px 5px;
+        margin-bottom: 80px;
+    }
+    .iframe h1{
+        margin-bottom: 30px;
+    }
+    iframe{
+        height: 90vw;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,11 @@
+responsive gallery (https://www.youtube.com/watch?v=180p7GLmMyQ)
+responsive navbar (https://www.youtube.com/watch?v=gXkqy0b4M5g)
+ini buat nyelesaiin masalah overflow-x:hidden; gamau work (https://stackoverflow.com/questions/14270084/overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers)
+buat garis di li keren (https://www.youtube.com/watch?v=IYTBAQRBsw0)
+footer (https://www.youtube.com/watch?v=zdA3qZNH1vc)
+
+
+https://www.youtube.com/watch?v=htChJbrO9SM&t=846s
+
+
+https://www.youtube.com/watch?v=t-EMinSz_Tk

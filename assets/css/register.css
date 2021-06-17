@@ -1,0 +1,19 @@
+form h2{
+    font-size: 1.5rem !important;
+}
+.input-div{
+    margin:15px 0 !important;
+}
+
+.avatar{
+    width: 80px !important;
+}
+select.form-control.show-tick {
+    padding: 10px;
+    background: transparent;
+    border: 2px solid #d9d9d9;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #555;
+    font-style: italic;
+}
